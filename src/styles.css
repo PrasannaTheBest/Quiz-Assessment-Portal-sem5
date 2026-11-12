@@ -1,4 +1,5 @@
 * { box-sizing: border-box; }
+html, body { overflow-x: hidden; }
 body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: #f3f5fb; color: #1f2430; }
 .navbar { background: #3b4cca; padding: 14px 24px; }
 .brand { color: #fff; font-weight: 700; font-size: 1.2rem; text-decoration: none; }
