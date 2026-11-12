@@ -40,6 +40,7 @@
 | 🏆 | **Best score** | Saved per quiz in `localStorage` |
 | 📱 | **Responsive UI** | Works on desktop, tablet and mobile |
 | 🔁 | **Retry** | Retake any quiz in one click |
+| 🎬 | **Smooth animations** | Page fades, sliding questions, hover lifts, pulsing low-time timer, animated score count-up and 🎊 confetti for 80%+ |
 
 ---
 
@@ -175,6 +176,7 @@ It shows up on the home page automatically. ✅
 
 ## 🔮 Future Improvements
 
+- [x] Smooth animations (respects `prefers-reduced-motion`)
 - [ ] Shuffle questions and options
 - [ ] "Mark for review" flag
 - [ ] Dark mode toggle

@@ -81,7 +81,7 @@ export default function Quiz({ onFinish }) {
 
       <div className="progress"><div className="bar" style={{ width: `${(answeredCount / total) * 100}%` }} /></div>
 
-      <div className="card question">
+      <div className="card question slide-in" key={current}>
         <h2>{q.question}</h2>
         {q.options.map((opt, i) => (
           <label key={i} className={`option ${answers[current] === i ? "selected" : ""}`}>

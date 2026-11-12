@@ -7,13 +7,13 @@ export default function Home() {
       <h1>Choose a quiz</h1>
       <p className="muted">Answer all questions before the timer runs out.</p>
       <div className="grid">
-        {quizzes.map((q) => {
+        {quizzes.map((q, idx) => {
           let best = null;
           try {
             best = localStorage.getItem(`best-${q.id}`);
           } catch {}
           return (
-            <div className="card" key={q.id}>
+            <div className="card hoverable" key={q.id} style={{ animationDelay: `${idx * 120}ms` }}>
               <h2>{q.title}</h2>
               <p>{q.description}</p>
               <p className="muted">
