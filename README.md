@@ -200,8 +200,6 @@ It shows up on the home page automatically. ✅
 
 <div align="center">
 
-### 👨‍💻 Built by **Siddharth Singh** (UID: 24BCS12906)
-
 ⭐ If you found this useful, consider giving the repo a star!
 
 </div>
